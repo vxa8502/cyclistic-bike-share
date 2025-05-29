@@ -1,6 +1,26 @@
 # Cyclistic Bike-Share Analysis: Understanding Rider Behavior
-![Casual vs Member Usage Analysis Dashboard](usage_analysis_dashboard.png)
+![Casual vs Member Usage Analysis Dashboard](cyclistic_dashboard.png)
+          [View interactive geospatial map](https://vxa8502.github.io/cyclistic-bike-share/top_start_stations_map.html)
+          
 This project analyzes Cyclistic bike-share data to understand differences between casual riders and annual members. The goal is to identify opportunities to convert casual riders into members, focusing on ride frequency, duration, preferred bike types, popular stations, and temporal trends.  This analysis uses data from November 2023 to October 2024.
+
+## Key Findings
+
+* **Seasonality:** Casual ridership peaks in the summer months (June-August), while member ridership is more consistent throughout the year.
+* **Weekday vs. Weekend Usage:** Casual riders predominantly use the service on weekends, while members demonstrate consistent weekday usage, suggesting commute patterns.
+* **Trip Duration:** Casual riders tend to have significantly longer average trip durations than members.
+* **Station Preferences:**  Casual riders and members show distinct preferences for start and end stations, with minimal overlap between the most popular locations.
+* **Bike Type:**  Classic bikes are the most popular choice for both groups.
+
+
+## Strategic Recommendations
+
+Based on the findings, Cyclistic should consider the following strategies:
+
+* **Targeted Marketing:** Focus marketing efforts on casual riders during peak season (summer) and weekends, emphasizing leisure and recreational use cases.
+* **Pricing Incentives:** Offer weekend or summer-specific passes/discounts to attract casual riders, potentially converting them to annual memberships.
+* **Commute-Focused Promotions:**  Target weekday commuters with promotions highlighting the convenience and cost-effectiveness of membership for regular travel.
+* **Station-Based Promotions:**  Leverage the identified differences in station preferences. Offer promotions or incentives at stations popular with casual riders to encourage membership uptake.
 
 ## Data Source
 
@@ -41,25 +61,6 @@ The cleaned and transformed data was analyzed to understand rider behavior, focu
 Matplotlib, Seaborn, and Plotly were used to create visualizations, including bar charts, pie charts, line plots, box plots, heatmaps, and a map to visually communicate the key findings.
 
 
-## Key Findings
-
-* **Seasonality:** Casual ridership peaks in the summer months (June-August), while member ridership is more consistent throughout the year.
-* **Weekday vs. Weekend Usage:** Casual riders predominantly use the service on weekends, while members demonstrate consistent weekday usage, suggesting commute patterns.
-* **Trip Duration:** Casual riders tend to have significantly longer average trip durations than members.
-* **Station Preferences:**  Casual riders and members show distinct preferences for start and end stations, with minimal overlap between the most popular locations.
-* **Bike Type:**  Classic bikes are the most popular choice for both groups.
-
-
-## Strategic Recommendations
-
-Based on the findings, Cyclistic should consider the following strategies:
-
-* **Targeted Marketing:** Focus marketing efforts on casual riders during peak season (summer) and weekends, emphasizing leisure and recreational use cases.
-* **Pricing Incentives:** Offer weekend or summer-specific passes/discounts to attract casual riders, potentially converting them to annual memberships.
-* **Commute-Focused Promotions:**  Target weekday commuters with promotions highlighting the convenience and cost-effectiveness of membership for regular travel.
-* **Station-Based Promotions:**  Leverage the identified differences in station preferences. Offer promotions or incentives at stations popular with casual riders to encourage membership uptake.
-
-
 ## Data Quality and Limitations (See notebook for full details)
 
 90.4% of the original data was retained after cleaning.  Limitations include missing station data in some records and the reliance on inferred ride purposes.
@@ -78,13 +79,6 @@ Based on the findings, Cyclistic should consider the following strategies:
 1. **Prerequisites:** Python 3, Jupyter Notebook, Pandas, NumPy, Matplotlib, Seaborn, Plotly.
 2. **Installation:** `pip install pandas numpy matplotlib seaborn plotly`
 3. **Run:** Open `eda.ipynb` in Jupyter Notebook and run all cells.
-
-
-## Visualizations (Include key visualizations as images here)
-
-![Rider Distribution](path/to/rider_distribution_pie_chart.png)  
-![Weekly Usage Patterns](path/to/weekly_usage_bar_chart.png)
-...(Add other key visualizations)
 
 
 ## Conclusion
