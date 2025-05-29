@@ -1,6 +1,7 @@
 # Cyclistic Bike-Share Analysis: Understanding Rider Behavior
 ![Casual vs Member Usage Analysis Dashboard](cyclistic_dashboard.png)
           [View interactive geospatial map](https://vxa8502.github.io/cyclistic-bike-share/top_start_stations_map.html)
+          
 This project analyzes Cyclistic bike-share data to understand differences between casual riders and annual members. The goal is to identify opportunities to convert casual riders into members, focusing on ride frequency, duration, preferred bike types, popular stations, and temporal trends.  This analysis uses data from November 2023 to October 2024.
 
 ## Key Findings
